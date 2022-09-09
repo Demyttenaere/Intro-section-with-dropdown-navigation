@@ -1,0 +1,408 @@
+
+/* font-family: 'Epilogue', sans-serif; */
+
+*,
+*::before,
+*::after {
+
+  box-sizing: border-box;
+}
+
+
+body,
+p, h1 {
+
+  margin: 0;
+  font-family: 'Epilogue', sans-serif;
+}
+
+.snap {
+
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.menu {
+
+    position: absolute;
+    margin-left: 330px;
+    margin-top: -30px;
+    border: none;
+}
+
+h1 {
+
+    font-size: 35px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+p  {
+
+    margin-top: 20px;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 25px;
+    color: hsl(0, 0%, 41%);
+}
+@media (max-width:375px){
+  
+    .hidden {
+
+ display: none;
+}
+
+.navMenu {
+
+    position: absolute;
+    background:linear-gradient(to left,hsl(0, 0%, 98%)65%, hsl(0, 0%, 8%,.2)35%);
+    width: 375px;
+    height: 780px;
+    text-align: center;
+    font-size: 16px;
+    color: hsl(0, 0%, 41%);
+    padding-top: 65px;
+    line-height: 20px;
+    font-weight: 500;
+}
+}
+
+li {
+
+    list-style-type: none;
+    margin-top: 20px;   
+}
+
+a {
+
+    color: hsl(0, 0%, 41%);
+    text-decoration: none;
+}
+
+.sousFeatures {
+
+    
+    text-align: left;
+    margin-left: 100px;
+}
+
+.sousCompany {
+
+    text-align: left;
+    margin-left: 100px;
+}
+
+.sousFeatures {
+
+    margin-left: 95px;
+}
+
+.login {
+
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+.register {
+
+    margin-top: 20px;
+    margin-left: 125px;
+    border: 1px solid hsl(0, 0%, 41%);
+    border-radius: 10px;
+    height: 40px;
+    padding-top: 11px;
+    width :180px;   
+}
+
+li img {
+
+    float: right;
+    margin-right: 120px;
+    margin-top: 5px;
+}
+
+.features {
+
+    margin-left: 97px;
+}
+
+.todo {
+
+    padding: 5px 0 0 35px;
+	background: url(icon-todo.svg) no-repeat left center;
+    background-size: 10%;
+}
+
+.calendar {
+
+    padding: 5px 0 0 35px;
+	background: url(icon-calendar.svg) no-repeat left center;
+    background-size: 10%;
+}
+
+.reminders {
+
+    padding: 5px 0 0 35px;
+	background: url(icon-reminders.svg) no-repeat left center;
+    background-size: 10%;
+}
+
+.planning {
+
+    padding: 5px 0 0 35px;
+	background: url(icon-planning.svg) no-repeat left center;
+    background-size: 10%;
+}
+
+.company {
+
+    margin-left: 100px;   
+    
+}
+
+.careers {
+
+    margin-left: -40px;
+}
+
+.about {
+
+    margin-left: -55px;
+}
+
+#fond {
+
+    margin-top: 20px;
+    width: 375px;
+    height: 300px;
+    background: url(image-hero-mobile.png) no-repeat;
+    background-size: 100%;
+}
+
+.learn {
+
+    margin-left: 120px;
+    color: hsl(0, 0%, 98%);
+    background-color: hsl(0, 0%, 8%);
+    text-decoration: none;
+    padding: 15px 25px 15px 25px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.partners {
+
+    margin-top: 70px;
+}
+
+.databiz {
+
+    width: 80px;
+    margin-left: 20px;
+}
+
+.audiophile {
+
+    width: 50px;
+    margin-bottom:-7px;
+    margin-left: 20px;
+}
+
+.meet {
+
+    width: 70px;
+    margin-left: 20px;
+}
+
+.maker {
+
+    width: 60px;
+    margin-left: 20px;
+}
+
+.attribution { 
+    margin-top: 50px;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a {
+    
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width:1000px) {
+
+    .navMenu {
+
+        position: absolute;
+        margin-top: -50px;
+        font-size: 12px;
+    }
+
+    .ul, li {
+
+        display: inline;
+    }
+
+    .menu {
+
+        display: none;
+    }
+    
+    .snap {
+
+        position: absolute;
+        margin-top: -55px;
+        margin-left: 40px;
+    }
+    
+
+    .sousFeatures, .sousCompany {
+        margin-top: 20px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .sousFeatures {
+
+        margin-left: 85px;
+        background-color: white;
+        box-shadow: 1px 1px 12px hsl(0, 0%, 41%);
+        padding: 0 25px 20px 25px;
+        border-radius: 10px;
+        
+    }
+
+    .sousCompany {
+
+        margin-left: 240px;
+        background-color: white;
+        box-shadow: 1px 1px 12px hsl(0, 0%, 41%);
+        padding: 0 25px 20px 25px;
+        border-radius: 10px;
+    }
+
+
+    .todo, .calendar, .reminders, .planning {
+
+        padding-left: 20px;
+        background-size: 15%;
+    }
+    .hidden2 {
+        display: none;
+    }
+
+    #fond {
+
+        background: url(image-hero-desktop.png)no-repeat;
+        background-size: 100%;
+        width: 480px;
+        height: 645px;
+        margin-left: 850px;
+        margin-top: 80px;
+    }
+
+     .features {
+
+        margin-left: 120px;
+    }
+
+    .company {
+
+        margin-left: 40px;
+    } 
+
+    .careers {
+
+        margin-left: 40px;
+    }
+
+    .about {
+
+        margin-left: 40px;
+    }
+
+    .login {
+
+        margin-left: 760px;
+    }
+
+    .register {
+
+        margin-left: 40px;
+        padding: 10px 15px 10px 15px;
+    }
+
+    li img {
+        
+        position: absolute;
+        margin-left: 100px;
+        margin-top: 3px;
+        
+    }
+
+    .ssFeat img {
+
+        margin-left: 180px;
+    }
+
+    h1 {
+
+        font-size: 65px;
+        font-weight: 600;
+        width: 440px;
+        text-align: left;
+        margin-top: -500px;
+        margin-left: 150px;
+    }
+
+    p {
+
+        width: 380px;
+        margin-top: 30px;
+        text-align: left;
+        margin-left: 150px;
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+
+    .learn {
+
+        margin-left: 150px;
+    }
+
+    .partners {
+
+        margin-top: 160px;
+    }
+    
+    .databiz {
+    
+        width: 80px;
+        margin-left: 150px;
+    }
+    
+    .audiophile {
+    
+        width: 50px;
+        margin-bottom:-7px;
+        margin-left: 40px;
+    }
+    
+    .meet {
+    
+        width: 70px;
+        margin-left: 40px;
+    }
+    
+    .maker {
+    
+        width: 60px;
+        margin-left: 40px;
+    }
+}
