@@ -45,7 +45,7 @@ p  {
     margin-bottom: 40px;
     line-height: 25px;
     color: hsl(0, 0%, 41%);
-	width:390px;
+	width:380px;
 }
 @media (max-width:400px){
   
@@ -55,7 +55,7 @@ p  {
 }
 	
 	.p {
-	width:390px;
+	width:380px;
 	}
 
 .navMenu {
